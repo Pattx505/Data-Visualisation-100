@@ -1,0 +1,9 @@
+date,time,room,daylight_outside,necessity
+2026-11-03,11:13,bedroom,5,2
+2026-11-03,12:17,hallway,4,2
+2026-11-03,20:36,bathroom,1,4
+2026-11-04,01:10,kitchen,1,5
+2026-11-04,02:20,bathroom,1,3
+2026-11-04,14:17,bedroom,4,3
+2026-11-04,16:38,bathroom,2,4
+2026-11-04,16:44,hallway,2,1
