@@ -37,8 +37,8 @@ Rooms use generic labels only to keep anonymity.
 
 ## Progress
 
-- 04-11-2026: Topic chosen
-- 04-11-2026: Repository created, data collection started.
+- 03-11-2026: Topic chosen, data collection started
+- 04-11-2026: Repository created
 
 ## Planned
 
