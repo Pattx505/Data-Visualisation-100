@@ -18,10 +18,9 @@ One row per light switch operation, recorded in `data.csv`.
 
 | Column | Meaning |
 |---|---|
-| `date` | Date of the observation (DD-MM-) |
+| `date` | Date of the observation (DD-MM) |
 | `time` | Time of the observation (HH:MM, 24h) |
 | `room` | Generic room label (e.g. kitchen, hallway, bedroom, bathroom, van) |
-| `on_or_off` | Whether I switched the light `on` or `off` |
 | `daylight_outside` | 1 (dark) to 5 (bright daylight) |
 | `necessity` | 1 (not needed at all) to 5 (could not do without it) |
 
