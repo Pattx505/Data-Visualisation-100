@@ -43,3 +43,22 @@ Rooms use generic labels only to keep anonymity.
 
 - A class to represent a single light switch observation.
 - At least 100 observations by the Week 10 sketch check-in.
+
+## Code
+
+The Processing sketch (`light_sketch/`) loads `data.csv` and draws one circle per observation. Circle size shows how necessary the light was, and colour shows the daylight outside (dark blue to yellow).
+
+### Methods
+
+A method is a named, reusable block of code that takes inputs (parameters) and can return a value, so the logic is written once and called wherever it's needed.
+
+```java
+// returns a circle diameter for a necessity rating (1-5)
+float necessityToSize(int necessity) {
+  return map(necessity, 1, 5, 10, 60);
+}
+```
+
+- `float` is the return type, the value the method gives back.
+- `necessity` is the parameter, the input.
+- `return` sends the result back to the caller.
