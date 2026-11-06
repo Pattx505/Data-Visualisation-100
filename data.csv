@@ -7,6 +7,7 @@ date,time,room,daylight_outside,necessity
 2026-11-04,14:17,bedroom,4,3
 2026-11-04,16:38,bathroom,2,4
 2026-11-04,16:44,hallway,2,1
+2026-11-04,16:44,living room,1,3
 2026-11-04,20:18,bathroom,1,3
 2026-11-05,12:33,bathroom,4,2
 2026-11-05,13:50,bedroom,5,3
@@ -16,3 +17,5 @@ date,time,room,daylight_outside,necessity
 2026-11-05,23:32,bathroom,1,4
 2026-11-05,23:52,kitchen,1,5
 2026-11-06,02:57,bedroom,1,1
+2026-11-06,08:48,bathroom,3,2
+2026-11-06,09:06,bedroom,4,3
