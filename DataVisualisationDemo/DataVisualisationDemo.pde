@@ -2,7 +2,7 @@
 // x = time of day, y = room, size = necessity, colour = daylight outside
 
 Table table;
-String[] rooms = {"bedroom", "hallway", "bathroom", "kitchen"};
+String[] rooms = {"bedroom", "hallway", "living room", "bathroom", "kitchen"};
 
 void setup() {
   size(1000, 520);
@@ -51,7 +51,7 @@ float timeToX(String t) {
 float roomToY(String room) {
   for (int i = 0; i < rooms.length; i++) {
     if (rooms[i].equals(room)) {
-      return 70 + i * 110;
+      return 70 + i * 80;
     }
   }
   return 0;
@@ -71,7 +71,7 @@ void drawAxes() {
   textAlign(RIGHT, CENTER);
   fill(150);
   for (int i = 0; i < rooms.length; i++) {
-    text(rooms[i], 85, 70 + i * 110);
+    text(rooms[i], 85, 70 + i * 80);
   }
 }
 
